@@ -1,12 +1,12 @@
 {
-    "name": "happy-birthday",
-    "version": "0.3.0",
-    "description": "happy birthday skill",
+    "name": "Haralds Geburtstag",
+    "version": "0.1.0",
+    "description": "Test Skill Zero2Hero Part 3",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Amazon Alexa",
+    "author": "Hasi57",
     "dependencies": {
         "ask-sdk-core": "^2.7.0",
         "ask-sdk-model": "^1.18.0",
