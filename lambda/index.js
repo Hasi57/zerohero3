@@ -12,7 +12,7 @@ const languageStrings = {
         translation: {
             WELCOME_MSG: `Willkommen bei Haralds Geburtstag. Viel Spass mit deinem Geburtstag! `,
             REGISTER_MSG: 'Dein Geburtstag ist am {{day}} {{month}} {{year}}.',
-            REJECTED_MSG: 'No problem. Bitte sag das Datum noch einmal, damit ich es richtig verstehe.',
+            REJECTED_MSG: 'Macht nichts. Bitte sag das Datum noch einmal, damit ich es richtig verstehe.',
             HELP_MSG: `Du kannst mir Dein Geburtsdatum sagen und ich nehme es zur Kenntnis. Du kannst auch einfach sagen, registriere meinen Geburtstag und ich werde Dich führen. Was möchtest Du ausprobieren?`,
             GOODBYE_MSG: 'Tschüß!',
             REFLECTOR_MSG: 'Du hast gerade das Intent {{intent}} ausgelöst.',
