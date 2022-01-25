@@ -22,7 +22,7 @@
                             "name": "day",
                             "type": "AMAZON.Ordinal",
                             "samples": [
-                                "the {day}",
+                                "der {day}",
                                 "{day}",
                                 "{month} {day}",
                                 "{month} {day} {year}"
@@ -33,7 +33,7 @@
                             "type": "MonthType",
                             "samples": [
                                 "{month}",
-                                "in {month}",
+                                "im {month}",
                                 "{month} {day}",
                                 "{month} {day} {year}"
                             ]
@@ -42,13 +42,13 @@
                             "name": "year",
                             "type": "AMAZON.FOUR_DIGIT_NUMBER",
                             "samples": [
-                                "of {year}",
-                                "I was born in {year}",
-                                "I was born in the year {year}",
-                                "year {year}",
                                 "in {year}",
-                                "in the year {year}",
-                                "the year {year}",
+                                "Ich wurde {year} geboren",
+                                "Ich wurde im Jahr {year} geboren",
+                                "Jahr {year}",
+                                "in {year}",
+                                "im Jahr {year}",
+                                "das Jahr {year}",
                                 "{year}",
                                 "{month} {day} {year}",
                                 "{month} {year}"
@@ -59,33 +59,23 @@
                         "{day}",
                         "{month}",
                         "{month} {year}",
-                        "{month} of {year}",
-                        "{day} of {month}",
-                        "in the year {year}",
-                        "I was born in {year}",
-                        "born in {year}",
-                        "for the {day} of {month}",
-                        "for {month} {day}",
-                        "with the {day} of {month}",
-                        "for the {day} of {month} {year}",
-                        "for {month} {day} {year}",
-                        "{month} {day} {year}",
-                        "my date of birth is the {day} of {month} {year}",
-                        "my birthday is the {day} of {month} {year}",
-                        "my birthday is the {day} of {month}",
-                        "I was born the {day} of {month} {year}",
-                        "{day} of {month} {year}",
+                        "im Jahr {year}",
+                        "Ich wurde {year} geboren",
+                        "geboren {year}",
+                        "am {day} {month}",
+                        "am {day} {month} {year}",
+                        "{day} {month} {year}",
+                        "mein Geburtstag ist der {day} {month} {year}",
+                        "mein Geburtstag ist der {day} {month}",
+                        "Ich wurde geboren am {day} {month} {year}",
                         "{month} {day}",
-                        "{month} the {day}",
-                        "I was born the {day} of {month}",
-                        "the {day}",
-                        "in {month}",
-                        "register my birthday",
-                        "record my birthday",
-                        "remember my birthday",
-                        "register my date of birth",
-                        "take a note on my birthday",
-                        "make a note on my birthday"
+                        "IIch wurde geboren am {day} {month}",
+                        "den {day}",
+                        "im {month}",
+                        "registriere meinen Geburtstag",
+                        "nimm meinen Geburtstag auf",
+                        "erinnere dich an meinen Geburtstag",
+                        "notiere meinen Geburtstag"
                     ]
                 },
                 {
@@ -104,7 +94,7 @@
                         {
                             "id": "12",
                             "name": {
-                                "value": "december"
+                                "value": "dezember"
                             }
                         },
                         {
@@ -116,7 +106,7 @@
                         {
                             "id": "10",
                             "name": {
-                                "value": "october"
+                                "value": "oktober"
                             }
                         },
                         {
@@ -134,19 +124,19 @@
                         {
                             "id": "07",
                             "name": {
-                                "value": "july"
+                                "value": "juli"
                             }
                         },
                         {
                             "id": "06",
                             "name": {
-                                "value": "june"
+                                "value": "juni"
                             }
                         },
                         {
                             "id": "05",
                             "name": {
-                                "value": "may"
+                                "value": "mai"
                             }
                         },
                         {
@@ -158,21 +148,21 @@
                         {
                             "id": "03",
                             "name": {
-                                "value": "march"
+                                "value": "märz"
                             }
                         },
                         {
                             "id": "02",
                             "name": {
-                                "value": "february"
+                                "value": "februar"
                             }
                         },
                         {
                             "id": "01",
                             "name": {
-                                "value": "january",
+                                "value": "januar",
                                 "synonyms": [
-                                    "first month of the year"
+                                    "erster Monat des Jahres"
                                 ]
                             }
                         }
@@ -284,19 +274,15 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "ok. I heard you birthday is in {month} but which day exactly?"
+                        "value": "OK. Ich habe verstanden, dass du im {month} Geburtstag hast, aber an welchem Tag genau?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "when is your birthday?"
+                        "value": "wann ist dein Geburtstag?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "ok in {year} , but which day?"
-                    },
-                    {
-                        "type": "PlainText",
-                        "value": "which day is your birthday?"
+                        "value": "ok, dein Geburtsjahr ist {year} , aber an welchem Tag?"
                     }
                 ]
             },
@@ -305,19 +291,19 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "please now tell me in which month is your birthday"
+                        "value": "Bitte sage mir jetzt, in welchem Monat Du Geburtstag hast."
                     },
                     {
                         "type": "PlainText",
-                        "value": "ok but in which month exactly?"
+                        "value": "ok, aber in welchem monat genau?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "in which month is your birthday?"
+                        "value": "in welchem Monat hast du Geburtstag?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "ok, the day is {day}. but in which month?"
+                        "value": "ok, am {day} . Aber in welchem Monat?"
                     }
                 ]
             },
@@ -326,7 +312,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Please say a valid day"
+                        "value": "Bitte nenne einen zulässigen Tag"
                     }
                 ]
             },
@@ -335,7 +321,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "Please try again and say a valid month"
+                        "value": "Bitte versuchs noch einmal und nenne einen zulässigen Monat"
                     }
                 ]
             },
@@ -344,19 +330,19 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "you're from {month} of which year?"
+                        "value": "Du hast im {month} Geburtstag. Aber in welchem Jahr?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "ok. {month} {day}. but in which year?"
+                        "value": "ok. {month} {day}. Aber in welchem Jahr?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "please now tell me in which year you were born"
+                        "value": "Bitte sag mir jetzt, in welchem Jahr Du geboren wurdest."
                     },
                     {
                         "type": "PlainText",
-                        "value": "which year were you born?"
+                        "value": "welches Jahr wurdest du geboren?"
                     }
                 ]
             },
@@ -365,7 +351,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "That's too old to be true. Please try again"
+                        "value": "Das ist zu alt um wahr zu sein. Bitte nochmal."
                     }
                 ]
             },
@@ -374,7 +360,7 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "That's too young to be true. Plese try again"
+                        "value": "Das ist zu jung um wahr zu sein. Bitte nochmal."
                     }
                 ]
             },
@@ -383,11 +369,11 @@
                 "variations": [
                     {
                         "type": "PlainText",
-                        "value": "That's {month} {day} {year} , did I get that right?"
+                        "value": "Das ist der {day} {month} {year} , habe ich das richtig verstanden?"
                     },
                     {
                         "type": "PlainText",
-                        "value": "Are you sure you want to register {month} {day} {year} ?"
+                        "value": "Bist Du sicher, dass ich den {day} {month} {year} erfassen soll?"
                     }
                 ]
             }
